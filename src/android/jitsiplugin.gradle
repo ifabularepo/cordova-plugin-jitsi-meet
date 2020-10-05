@@ -40,7 +40,9 @@ android {
     	}
 }
 dependencies {
-//org.jitsi.react:jitsi-meet-sdk:2.+ org.jitsi.react:jitsi-meet-sdk:1.9.0@aar
+	classpath 'com.android.tools.build:gradle:3.4.2'
+	
+	//org.jitsi.react:jitsi-meet-sdk:2.+ org.jitsi.react:jitsi-meet-sdk:1.9.0@aar
 	compile  ('org.jitsi.react:jitsi-meet-sdk:2.+') {
 		transitive = true;
 	}
@@ -51,5 +53,5 @@ dependencies {
 	//compile  "com.android.support:appcompat-v7:27.1.0"
 	//compile  "com.android.support:recyclerview-v7:27.1.0"
 	//compile  "com.android.support:design:27.1.0"
-	implementation 'com.android.tools.build:gradle:3.4.2'
+	
 }
