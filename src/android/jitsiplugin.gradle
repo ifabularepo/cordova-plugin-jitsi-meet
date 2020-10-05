@@ -40,12 +40,12 @@ android {
     	}
 }
 dependencies {
-	classpath 'com.android.tools.build:gradle:3.4.2'
+	//classpath 'com.android.tools.build:gradle:3.4.2'
+	implementation ('org.jitsi.react:jitsi-meet-sdk:2.8.2') { transitive = true }
+	
 	
 	//org.jitsi.react:jitsi-meet-sdk:2.+ org.jitsi.react:jitsi-meet-sdk:1.9.0@aar
-	compile  ('org.jitsi.react:jitsi-meet-sdk:2.+') {
-		transitive = true;
-	}
+	//compile  ('org.jitsi.react:jitsi-meet-sdk:2.+') {transitive = true;}
 
 	//implementation "com.android.support:appcompat-v7:27.1.0"	
 	implementation 'androidx.appcompat:appcompat:1.1.0'
