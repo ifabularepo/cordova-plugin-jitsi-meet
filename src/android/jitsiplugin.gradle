@@ -51,5 +51,5 @@ dependencies {
 	//compile  "com.android.support:appcompat-v7:27.1.0"
 	//compile  "com.android.support:recyclerview-v7:27.1.0"
 	//compile  "com.android.support:design:27.1.0"
-	classpath("com.android.tools.build:gradle:3.4.2")
+	implementation 'com.android.tools.build:gradle:3.4.2'
 }
